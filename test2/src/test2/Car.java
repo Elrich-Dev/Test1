@@ -4,25 +4,25 @@ public class Car{
 	
 
 
-private String make;
+private String set;
 private String model;
 private int year;
 private double speed;
 
-public Car(String make,String model,int year)
+public Car(String set,String model,int year)
 {
-this.make=make ;
+this.set=set ;
 this.model=model ;
 this.year=year ;
 this.speed= speed;
 }
-public String getMake()
+public String getset()
 {
-return make;
+return set;
 }
-public void setMake(String make)
+public void setset(String set)
 {
-this.make=make ;
+this.set=set ;
 }
 public  String getModel()
 {
@@ -53,7 +53,7 @@ public void brake(double amount)
 speed-=amount ;
 }
 public void printInfo(){
-System.out.println("Make:"+make );
+System.out.println("Set:"+set );
 System.out.println("Model:"+model );
 System.out.println("Year:"+ year);
 System.out.println("Speed:"+ speed+"mph");
